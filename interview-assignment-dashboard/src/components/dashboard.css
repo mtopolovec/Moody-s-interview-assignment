@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#countryCode,
+#searchMethod,
+#searchValue,
+#alternativeSource,
+#searchLimit {
+  background-color: #c9c9c9;
+}
+
+#submitButton {
+  margin-top: 2rem;
+  color: #dad5d5;
+}
