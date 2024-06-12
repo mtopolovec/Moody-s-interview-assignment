@@ -18,7 +18,7 @@ public class FetchDataImp implements FetchData {
     private final RestTemplate restTemplate;
     private final ObjectMapper objectMapper;
     @Value("${headerToken}")
-    String headerKey;
+    private String headerKey;
 
     public FetchDataImp(RestTemplate restTemplate, ObjectMapper objectMapper) {
         this.restTemplate = restTemplate;
